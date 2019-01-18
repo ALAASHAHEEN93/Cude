@@ -1,0 +1,382 @@
+body {
+    direction: ltr;
+    font-family: 'Titillium Web', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: #f7f3ea;
+}
+
+.logo {
+    float: left;
+    margin-left: 212px;
+}
+
+.purble {
+    background-color: #87509c;
+}
+
+.light-green {
+    background-color: #17c2a4;
+}
+
+.light-Blue {
+    background-color: #e7f1f8;
+}
+
+.light-Yellow {
+    background-color: #ffdd99;
+}
+
+.light-DarkBlue {
+    background-color: #3c5499;
+}
+.DarkBlue{
+        background-color: #344b8e;
+
+}
+
+.HeroSection {
+    padding: 0px;
+    margin: auto;
+    width: 100%;
+    box-sizing: border-box;
+    height: auto;
+    padding: 52px 0px 100px 0px;
+}
+
+.clear {
+    clear: both;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.menu {
+    float: right;
+    width: 50%;
+}
+
+.menu ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.menu ul li a {
+    color: #f7f3ea;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.menu ul {
+    margin-left: 104px;
+}
+
+.menu ul li a:hover {
+    text-decoration: underline;
+}
+
+.menu ul li:first-child {
+    margin-left: 0px;
+}
+
+.HeroDesc p {
+    font-size: 32px;
+    color: #f7f3ea;
+    font-weight: bold;
+    padding-top: 130px;
+    text-align: center;
+    width: 900px;
+    margin: auto;
+}
+
+.workWothUs {
+    text-align: center;
+    margin: 60px 0px;
+}
+
+.workWothUs a {
+    color: #f7f3ea;
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    background-color: #eb7d4b;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 20px 80px;
+    border-radius: 5px;
+    box-shadow: 0px 5px #c86a40;
+}
+
+.container h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.title {
+    width: 900px;
+    text-align: center;
+    font-size: 18px;
+    margin: auto;
+    padding-top: 21px;
+}
+
+.parg {
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.clear {
+    clear: both;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+a.Social {
+    color: white;
+    background-color: #bdd1df;
+    font-size: 16px;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+a.Social:last-child {
+    margin-right: 0px;
+}
+
+.Services {
+    text-align: center;
+    margin: 65px 0px;
+}
+
+.Team {
+    text-align: center;
+    margin: 65px 0px;
+}
+
+.name-Team {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.Services>div {
+    display: inline-block;
+    width: 260px;
+    margin: 0px 10px;
+}
+
+.Team>div {
+    display: inline-block;
+    width: 260px;
+    margin: 0px 10px;
+}
+
+.Team {
+    font-size: 41.29px;
+    font-weight: bold;
+    color: #3c4761;
+}
+
+.Team-parg {
+    font-size: 18.58px;
+    color: #3c4761;
+    text-align: center;
+}
+
+.Social i {
+    width: 40px;
+}
+
+/***** PORTFOLIO *****/
+
+.portfolio {
+    color: #393939;
+    text-align: center;
+}
+
+.portfolio h1 {
+    font-size: 40px;
+}
+
+.portfolio p {
+    font-size: 18px;
+}
+
+.portfolio .posts {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 10px 20%;
+}
+
+.portfolio .lable {
+    font-size: 18px;
+}
+
+.LoadMoreProject {
+    text-align: center;
+    margin: 60px 0px;
+}
+
+.LoadMoreProject a {
+    color: #d1f3ed;
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    background-color: #17c2a4;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 20px 80px;
+    border-radius: 5px;
+    box-shadow: 0px 5px #14a58c;
+}
+
+.light-Pink {
+    background-color: #d74680;
+}
+
+.employees h1 {
+    font-size: 40 px;
+    font-weight: bold;
+    color: white;
+}
+
+.employees p {
+    font-size: 18px;
+    text-align: center;
+}
+
+
+.employees .Aboutemployees {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 10px 20%;
+    grid-row-gap: 140px;
+    grid-column-gap: 80px;
+}
+
+.Aboutemployees .post-content {
+    width: 70%;
+    display: inline-block;
+}
+
+.Aboutemployees p {
+    font-size: 21px;
+    font-style: italic;
+    text-align: left;
+}
+
+.Aboutemployees .post img{
+    vertical-align: top;
+}
+.Aboutemployees .post-content .name {
+    font-size: 24 px;
+    font-weight: bold;
+    display: block;
+}
+
+.Aboutemployees .job {
+    display: inline-block;
+    font-size: 18 px;
+    color: #ffdd99;
+}
+
+
+.CallUs h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+.CallUs p {
+    font-size: 18 px;
+    text-align: center;
+}
+
+.center-form{
+    margin: 0 auto;
+    margin-top:65px;
+    max-width: 925px;
+}
+
+.CallUs input {
+    background-color: #273a71;
+    color:white;
+    width: 415px;
+    height: 56px;
+    padding-left: 10px;
+    margin: 0px 15px;
+    border: 0px;
+    border-radius: 5px;
+}
+.CallUs input::placeholder {
+    color: white;
+}
+
+.CallUs textarea {
+    background-color: #273a71;
+    display: block;
+    width: 50%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    font-size: 16px;
+    border: 0px;
+    border-radius: 5px;
+    margin: 25px 15px;
+    width: 885px;
+}
+
+.CallUs textarea::placeholder{
+    color:wihte;
+}
+
+.SendMessage {
+    text-align: center;
+    margin: 60px 0px;
+}
+
+.SendMessage a {
+    color: #d1f3ed;
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    background-color: #30bae7;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 20px 80px;
+    border-radius: 5px;
+    box-shadow: 0px 5px #299ec5;
+}
+.footer {
+      text-align: center;
+   padding:  17px 0px 3px 0px;
+
+}
+
+.footer ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.footer ul li a {
+    color: #f7f3ea;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+
+.footer ul li a:hover {
+    text-decoration: none;
+    color: #30bae7;
+
+
+.footer ul li:first-child {
+    margin-left: 0px;
+}
