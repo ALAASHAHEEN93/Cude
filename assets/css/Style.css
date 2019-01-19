@@ -131,6 +131,7 @@ body {
     clear: both;
 }
 
+
 .name {
     font-size: 24px;
     font-weight: bold;
@@ -198,7 +199,7 @@ a.Social:last-child {
     text-align: center;
 }
 
-.portfolio h1 {
+.portfolio h2 {
     font-size: 40px;
 }
 
@@ -238,10 +239,11 @@ a.Social:last-child {
     background-color: #d74680;
 }
 
-.employees h1 {
-    font-size: 40 px;
+.employees h2 {
+    font-size: 40px;
     font-weight: bold;
     color: white;
+    text-align: center;
 }
 
 .employees p {
@@ -285,9 +287,10 @@ a.Social:last-child {
 }
 
 
-.CallUs h1 {
+.CallUs h2 {
     font-size: 40px;
     font-weight: bold;
+    text-align: center;
     color: white;
 }
 
