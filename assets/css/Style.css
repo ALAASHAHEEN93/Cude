@@ -316,6 +316,9 @@ a.Social:last-child {
     color: white;
 }
 
+ textarea::placeholder {
+  color: white;  
+}
 .CallUs textarea {
     background-color: #273a71;
     display: block;
