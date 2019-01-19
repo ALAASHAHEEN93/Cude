@@ -197,6 +197,7 @@ a.Social:last-child {
 .portfolio {
     color: #393939;
     text-align: center;
+
 }
 
 .portfolio h2 {
@@ -211,11 +212,17 @@ a.Social:last-child {
     display: grid;
     grid-template-columns: 50% 50%;
     margin: 10px 20%;
-}
+                text-transform: uppercase;
 
-.portfolio .lable {
-    font-size: 18px;
 }
+ img{
+    margin-top: 50px;
+}
+.portfolio .lable {
+     text-transform: uppercase;
+
+    font-size: 18px;
+ }
 
 .LoadMoreProject {
     text-align: center;
